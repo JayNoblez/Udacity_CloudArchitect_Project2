@@ -4,15 +4,11 @@ Initial_Cost_Estimate,US East (N. Virginia),S3 Standard,0,70.66,847.92,USD,S3 St
 Initial_Cost_Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
  Outbound (to: Not selected) 0 TB per month 
 "
-Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1066.925,12803.1,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 0 TB per month 
- Outbound (to: Amazon Cloud Front) 5 TB per month 
- Outbound (to: Internet) 5 TB per month 
- Intra-Region 0 TB per month 
-, Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 8 Hr 30 Min))"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,662.785,7953.42,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Workload (Consistent, Number of instances: 1), Advance EC2 instance (t2.2xlarge), Pricing strategy (undefined 1 Year  None upfront), Data transfer cost (460.71)"
 Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,7525.652,90307.82,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (10 TB), Instance type (db.m5.4xlarge), Additional backup storage (40 TB)"
 Initial_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,500.05,6000.6,USD,Number of Application Load Balancers (2)
 Initial_Cost_Estimate,US East (N. Virginia),Amazon Route 53,0,0.5,6,USD,Hosted Zones (1)
-,,,,9198.437,110381.24,,
+,,,,8794.297,105531.56,,
 ,,,,,,,
 ,,,,,,,
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
