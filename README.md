@@ -1,5 +1,5 @@
 # Udacity_CloudArchitect_Project2
-Design, Provision and Monitor AWS Infrastructure at Scale
+Project: To Design, Provision and Monitor AWS Infrastructure at Scale
 
 #### Making Tradeoffs per cost allocation scenarios.
 
