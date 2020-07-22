@@ -9,7 +9,7 @@ Design, Provision and Monitor AWS Infrastructure at Scale
 
 **Key Changes made**:
 
-**In Scenario 2** - To reduce cost: 
+**In Scenario 2** - *Goal* To reduce cost: 
 > Focus tweaks on areas of bulk spend (For example, Compute, or Storage). In this specific case, the initial total storage on the RDS instances was 50TB. Slash to 25TB
 
 Why? Leaving the storage capacity at 25TB is still an optimal solution since the earlier provisioned capacity would likely not be maxxed to capacity for an expected 50,000 users.  The storage can be managed with some Lifecycle policies to retire stale DB Snapshots and free up space (FIFO).
