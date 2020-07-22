@@ -1,0 +1,23 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary,,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,34.65,415.8,USD,Number of NAT Gateways (1),,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),S3 Standard,0,70.66,847.92,USD,S3 Standard storage (3 TB per month),,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+",,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,9630.65,115567.8,USD,"Operating system (Linux), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (4 TB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 0 TB per month 
+ Outbound (to: Amazon Cloud Front) 5 TB per month 
+ Outbound (to: Internet) 5 TB per month 
+ Intra-Region 0 TB per month 
+, Workload (Consistent, Number of instances: 8), Provisioning IOPS (1001)",,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,6292.052,75504.62,USD,"Quantity (2), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (15 TB), Additional backup storage (10 TB), Provisioning IOPS (1000)",,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,500.05,6000.6,USD,Number of Application Load Balancers (2),,,,,,,,
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Route 53,0,0.5,6,USD,Hosted Zones (1),,,,,,,,
+Increased_Cost_Estimate > New Region Resources,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,34.65,415.8,USD,Number of NAT Gateways (1),,,,,,,,
+Increased_Cost_Estimate > New Region Resources,US East (Ohio),Amazon RDS for MySQL,0,1146.506,13758.07,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Additional backup storage (4 TB)",,,,,,,,
+Increased_Cost_Estimate > New Region Resources,US East (Ohio),Elastic Load Balancing,0,250.03,3000.36,USD,Number of Application Load Balancers (1),,,,,,,,
+Increased_Cost_Estimate > New Region Resources,US East (Ohio),Amazon Route 53,0,0.5,6,USD,Hosted Zones (1),,,,,,,,
+Increased_Cost_Estimate > New Region Resources,US East (Ohio),Amazon EC2,0,986.81,11841.72,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (t2.medium)",,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+https://calculator.aws/#/estimate?id=d848b55e15b3828c9dddb4c99159c831ef1f9236,,,,,,,,,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,,,,,,,
