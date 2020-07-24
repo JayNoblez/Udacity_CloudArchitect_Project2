@@ -5,14 +5,14 @@ provider "aws" {
 }
 
 # Provisioned 4 AWS t2.micro EC2 instances named Udacity T2
-#resource "aws_instance" "Udacity_T2" {
-# ami           = "ami-0d57c0143330e1fa7"
-#count         = "4"
-#instance_type = "t2.micro"
-#subnet_id     = "subnet-34302b53"
-#tags = { Name = "Udacity T2"
-#}
-#}
+resource "aws_instance" "Udacity_T2" {
+ ami           = "ami-0d57c0143330e1fa7"
+count         = "4"
+instance_type = "t2.micro"
+subnet_id     = "subnet-34302b53"
+tags = { Name = "Udacity T2"
+}
+}
 
 # Provisioned 2 AWS m4.large EC2 instances named Udacity m4
 #resource "aws_instance" "Udacity_M4" {
